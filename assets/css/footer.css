@@ -1,0 +1,139 @@
+/* Footer Styles */
+.mced-footer {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+	bottom:0;
+	display:flex;
+	width:100%;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .footer-logo h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    white-space: nowrap;
+  }
+  
+  .footer-divider {
+    width: 1px;
+    height: 80px;
+    background-color: #444;
+    margin: 0 30px;
+  }
+  
+  .footer-nav {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+    display: flex;
+  }
+  
+  .footer-nav li {
+    margin-right: 20px;
+  }
+  
+  .footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .footer-nav a:hover {
+    color: #ccc;
+  }
+  
+  .copyright {
+    color: #999;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .footer-social {
+    text-align: center;
+  }
+  
+  .social-icons {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 18px;
+    margin: 0 8px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #ccc;
+  }
+  
+  .support-email {
+    color: #999;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-logo {
+      margin-bottom: 20px;
+    }
+  
+    .footer-divider {
+      display: none;
+    }
+  
+    .footer-nav {
+      margin-bottom: 20px;
+    }
+  
+    .footer-nav ul {
+      flex-direction: column;
+      margin-bottom: 15px;
+    }
+  
+    .footer-nav li {
+      margin: 5px 0;
+    }
+  
+    .footer-social {
+      text-align: center;
+    }
+  
+    .social-icons a {
+      margin: 0 8px;
+    }
+  }
+  
+  .copyright,
+  .support-email {
+    text-align: center;
+  }
+  
